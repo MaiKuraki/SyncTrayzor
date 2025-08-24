@@ -4,27 +4,15 @@
   <metadata>
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>synctrayzor</id>
-    <title>SyncTrayzor</title>
-    <version>0.0.0</version>
+    <title>[Deprecated] SyncTrayzor</title>
+    <version>1.1.29.1</version>
     <authors>Antony Male</authors>
     <owners>Antony Male</owners>
     <summary>Windows tray utility / launcher for Syncthing</summary>
-    <description>SyncTrayzor is a little tray utility for [Syncthing](http://syncthing.net/) on Windows.
-It hosts and wraps Syncthing, making it behave more like a native Windows application and less like a command-line utility with a web browser interface.
+    <description>SyncTrayzor v1 is no longer under development (sorry!).
 
-Features include:
-
- - Has a built-in web browser, so you don't need to fire up an external browser.
- - Optionally starts on login, so you don't need to set up Syncthing as a service.
- - Has drop-box style file download / progress window
- - Tray icon indicates when synchronization is occurring.
- - Alerts you when:
-    - You have file conflicts
-    - One of your folders is out of sync
-    - Folders finish syncing
-    - Devices connect / disconnect
- - Has a tool to help you resolve file conflicts
- - Contains translations for many languages 
+    GermanCoding has kindly forked it as [SyncTrayzor v2](https://github.com/GermanCoding/SyncTrayzor) and is continuing development, and this fork is [recommended by Syncthing](https://docs.syncthing.net/users/contrib.html#windows).
+    Please switch to SyncTrayzor v2 (after determining that you trust the fork!).
     </description>
     <projectUrl>https://github.com/canton7/SyncTrayzor</projectUrl>
     <packageSourceUrl>https://github.com/canton7/SyncTrayzor/tree/develop/chocolatey</packageSourceUrl>
@@ -45,7 +33,5 @@ Features include:
     <releaseNotes>https://github.com/canton7/SyncTrayzor/blob/master/CHANGELOG.md</releaseNotes>
     <!--<provides></provides>-->
   </metadata>
-  <files>
-    <file src="tools\**" target="tools" />
-  </files>
+  <files/>
 </package>
